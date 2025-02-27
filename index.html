@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container-xxl bg-light">
 
         <h1 class="text-primary mb-5">My first Bootstrap page</h1>
         <p>Lorem ipsum dolor sit, <span class="text-white bg-dark">amet consectetur adipisicing elit.</span> Tempora corporis maxime quasi pariatur, ullam qui numquam totam fugit, tempore harum nam quam ad reiciendis nesciunt accusantium nemo. Blanditiis, molestiae saepe.</p>
@@ -66,8 +66,50 @@
             <li class="alert alert-white">Fehér szín</li>
         </ul>
 
+    </div>
+
+    <div class="container">
+        <h1>Grid system</h1>
+        <h2>3 oszlopos elrendezés, minden oszlop ugyanolyan széles.</h2>
+        <div class="row">
+            <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, accusantium saepe. Vel, consequatur sequi nemo vero debitis incidunt doloribus officiis dicta provident, laudantium ea, excepturi aspernatur hic. Nesciunt, deserunt minus.</div>
+            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+        </div>
+
+        <h2>2 oszlopos elrendezés, minden oszlop ugyanolyan széles.</h2>
+        <div class="row">
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, accusantium saepe. Vel, consequatur sequi nemo vero debitis incidunt doloribus officiis dicta provident, laudantium ea, excepturi aspernatur hic. Nesciunt, deserunt minus.</div>
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+        </div>
+
+        <h2>Reszponzív elrendezés, minden oszlop ugyanolyan széles.</h2>
+            <div class="row">
+                <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, accusantium saepe. Vel, consequatur sequi nemo vero debitis incidunt doloribus officiis dicta provident, laudantium ea, excepturi aspernatur hic. Nesciunt, deserunt minus.</div>
+                <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+                <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+                <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+                <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+                <div class="col-6 col-md-4 col-xl-3 col-xxl-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+            </div>
+
+        <h2>Változó oszlopszélesség.</h2>
+        <div class="row">
+            <div class="col-2 bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, accusantium saepe. Vel, consequatur sequi nemo vero debitis incidunt doloribus officiis dicta provident, laudantium ea, excepturi aspernatur hic. Nesciunt, deserunt minus.</div>
+            <div class="col-8 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+            <div class="col-2 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+        </div>
+
+        <h2>Számított oszlopszélesség.</h2>
+        <div class="row text-white">
+            <div class="col bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, accusantium saepe. Vel, consequatur sequi nemo vero debitis incidunt doloribus officiis dicta provident, laudantium ea, excepturi aspernatur hic. Nesciunt, deserunt minus.</div>
+            <div class="col-7 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+            <div class="col bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis fugiat praesentium sit eaque obcaecati in dolorem aliquam quo, blanditiis pariatur, cum nam recusandae. Suscipit unde, sint minus quod nihil magni!</div>
+        </div>
 
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
